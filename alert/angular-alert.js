@@ -1,6 +1,6 @@
 /*
  * angular-alert (July 16 2016)
- * https://github.com/codeeverywhereca/css-ui/tree/master/angular-plugins/alert
+ * https://github.com/codeeverywhereca/angular-plugins
  * Copyright 2016, http://codeeverywhere.ca
  * Licensed under the MIT license.
  */
