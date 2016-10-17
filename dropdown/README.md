@@ -8,8 +8,8 @@ Use the directive in your app
 
 ```js
 Attributes:
-		model - data model
-    options - options list
+	model - data model
+	options - options array [{ label : ..., value : ... }, { ... }]
 ```
 
 # Example
