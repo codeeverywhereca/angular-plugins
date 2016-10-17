@@ -24,7 +24,7 @@ app.directive("dropdown", ["$sce", function($sce) {
             scope.$watch("options.length", function(n, o) {
                 if (n > 0) {
                     for (var a = 0; a < n; a++) {
-                        if (scope.model.toLowerCase() == scope.options[a].label.toLowerCase() || scope.model == scope.options[a].value) {
+                        if (scope.model == scope.options[a].label || scope.model == scope.options[a].value) {
                             scope.label = scope.options[a].label;
                             scope.model = scope.options[a].value;
                             break;
