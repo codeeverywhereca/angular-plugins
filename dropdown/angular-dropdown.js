@@ -1,3 +1,10 @@
+/*
+ * angular-dropdown (Oct 17 2016)
+ * https://github.com/codeeverywhereca/angular-plugins
+ * Copyright 2016, http://codeeverywhere.ca
+ * Licensed under the MIT license.
+ */
+
 app.directive("dropdown", ["$sce", function($sce) {
     return {
         restrict: "AE",
