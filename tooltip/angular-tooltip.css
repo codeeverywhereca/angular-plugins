@@ -1,6 +1,6 @@
 .angular-tooltip {
     position: fixed;
-    z-index: 99999;
+    z-index: 999;
 }
 .angular-tooltip-arrow-btm,
 .angular-tooltip-arrow-top {
@@ -10,13 +10,13 @@
     border-right: 8px solid transparent;
 }
 .angular-tooltip-arrow-btm {
-    border-top: 8px solid #000;
+    border-top: 8px solid #272725;
 }
 .angular-tooltip-arrow-top {
-    border-bottom: 8px solid rgba(0, 0, 0, .8);
+    border-bottom: 8px solid #272725;
 }
 .angular-tooltip-text {
-    background: #000;
+    background: #272725;
     padding: 10px;
     color: #dfdfdf;
     font-size: 14px;
